@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>А.С.Б./Контакты</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+</head>
+
+<body>
+   <div class="container">
+    <header>
+            <div class="logo"><a href="index.html"><img src="images/logo.PNG" alt="LOGO"></a></div>
+
+            <ul class="menu">
+                <li><a href="index.html" class="sites"><span class="menutext">Главная</span></a></li>
+                <li><a href="catalog.html" class="sites"><span class="menutext">Каталог</span></a></li>
+                <li><a href="contacts.html" class="sites"><span class="menutext">Контакты</span></a></li>
+            </ul>
+            <div class="basket">
+                <button class="basket-button">Корзина</button>
+                <div class="basket-content ">
+                    <table class="basket-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">ID</th>
+                                <th scope="col">Имя</th>
+                                <th scope="col">Цена</th>
+                                <th scope="col">Количество</th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                        <tfoot>
+                            <tr>
+                                <th colspan="2" scope="row">Итого:</th>
+                                <td colspan="3">
+                                    <span class="total">0</span> Рублей
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </header>
+    <hr>
+    <h1>Контакты</h1>
+    <fieldset>
+    <legend>Обратная связь</legend>
+    <form action="#" class="forma">
+        Ваше имя <br>
+         <input type="text" placeholder="Иванов Иван Иванович" class="contacts">
+        <br>
+        <br>
+        Электронная почта <br> <input type="text" placeholder="mail@gmail.com" class="contacts">
+        <br>
+        <br>
+        Тема <br>
+        <select name="Тема" id="тема">
+             <option value="1">Вопрос</option>
+             <option value="2">Отзыв</option>
+             <option value="3">Пожелание</option>
+         </select>
+        <br>
+        <br>
+        Текст сообщения <br>
+         <textarea name="messege" id="1" cols="50" rows="5" placeholder="Сообщение"></textarea>
+        <br>
+        Согласие на&nbsp;обработку персональных данных <input type="checkbox"><br>
+        <br>
+        <input type="submit" value="Отправить"> <input type="reset" value="Отмена"><br>
+    </form>
+    </fieldset>
+    <br>
+    <b>Точка самовывоза</b> <br>
+    Наш адрес&nbsp;&mdash; Москва, улица Гримау, д.10. 340м от&nbsp;метро Академическая.<br>
+    <br>
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A713a0ef82f042e1ef38914d5eed729281edf3fdf689a4ff95c4d3fa367b155dd&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script> <br>
+    <br>
+    Наш телефон: +7-495-123-45-67 <br>
+    Електронная почта: A.S.B.@gmail.com
+
+
+    <hr>
+    <footer>Все права защищены &copy;</footer>
+    </div>
+    
+    <script src="js/basket.js"></script>
+</body></html>

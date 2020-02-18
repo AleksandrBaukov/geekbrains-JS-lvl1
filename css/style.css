@@ -1,0 +1,313 @@
+html {
+    background: #f8f8f8;
+}
+.menu{
+    float: right;
+    outline: 1px solid green;
+    background-color:azure;
+    margin: 45px 10px;
+    font-size: 35px
+}
+.menu li{    
+    list-style-type: none;
+    margin: 5px;
+    padding: 3px;  
+    display: inline-block;
+    
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+.menu li a:active {
+    color:darkblue;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: orchid;
+}
+
+.zagolovok{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+    
+}
+.short{
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.detail{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.char{
+    color: dimgrey;
+}
+.char li{
+    list-style-type:square;
+    color: dimgrey;
+    font-size: 15px;
+    font-style: oblique;
+    line-height: 17px
+}
+.contacts{
+    width: 365px;
+    height: 17px;
+    font-style: oblique;
+    color: black;
+}
+.imgsmall{
+    outline: 2px solid darkgreen;
+    display: block;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.imgsmall:hover{
+    outline: none;
+}
+.forma{    
+    outline-offset: 6px;
+    width: 500px
+}
+header{   
+    background: url(../images/iStock_87538065_SMALL.jpg);
+    height: 200px;    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.forma input:first-child{    
+    text-transform: capitalize;
+}
+.forma input:focus{
+    color: darkgreen;
+    background-color:antiquewhite;
+}
+p:first-letter{
+    font-size: 25px;
+    color: red;
+}
+.zadanie{
+    width: 500px;
+    height: 400px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+.zadanie tr td{
+    border: 1px solid black;
+    
+}
+.zzadanie{
+    height: 50px;
+}
+fieldset{
+    width: 470px;
+}
+.menutext{
+    font-size: 25px;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.logo{
+    margin: 30px 20px;
+    float: left;
+}
+.privetstvie{
+    font-size: 20px;
+    margin-top: 20px;
+}
+footer{
+    padding: 20px 100px 0 0;
+    box-sizing: border-box;
+    text-align: right;
+    height: 100px;
+    background-color: lightgrey
+}
+.prod-list li{
+    display: inline-block;
+    outline: 1px solid green;
+  list-style-type: none;
+    height: 280px;
+    width: 200px;
+   vertical-align: top;
+     margin: 0 10px 10px 0;
+    padding: 10px 10px;
+    }
+
+button{
+    color: gray;     
+    cursor: pointer;
+    font-weight: 800;
+    padding: 12px 30px;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    height: 60px;
+}
+button:hover{
+    color: darkseagreen;
+    outline: 1px solid green;
+}
+button:active{
+    color: red;
+}
+
+textarea:focus {
+     color: darkgreen;
+    background-color:antiquewhite;
+}
+
+.sim-slider {
+    max-width: 800px;
+    min-width: 400px;
+    min-height: 430px;
+    margin: 20px auto;
+/*    padding: 30px 50px;*/
+    border: 1px solid #ccd;
+    background-color: white;
+  }
+  
+  /* General styles */
+  .sim-slider {
+    position: relative;
+  }
+  
+  .sim-slider-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+  }
+  
+  .sim-slider-element {
+    width: 100%;
+    transition: opacity 1s ease-in;
+    opacity: 0;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    display: block;
+  }
+  
+  /* Navigation item styles */
+  div.sim-slider-arrow-left,
+  div.sim-slider-arrow-right {
+    width: 22px;
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0.6;
+    z-index: 4;
+  }
+  
+  div.sim-slider-arrow-left {
+    left: 10px;
+    top: 40%;
+    display: block;
+    background: url("http://pvbk.spb.ru/inc/slider/sim-files/sim-arrow-left.png") no-repeat;
+  }
+  
+  div.sim-slider-arrow-right {
+    right: 10px;
+    top: 40%;
+    display: block;
+    background: url("http://pvbk.spb.ru/inc/slider/sim-files/sim-arrow-right.png") no-repeat;
+  }
+  
+  div.sim-slider-arrow-left:hover {
+    opacity: 1.0;
+  }
+  
+  div.sim-slider-arrow-right:hover {
+    opacity: 1.0;
+  }
+  
+  div.sim-slider-dots {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 3;
+    text-align: center;
+  }
+  
+  span.sim-dot {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    padding: 0;
+    display: inline-block;
+    background-color: #BBB;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.sim-slider-element a{
+    
+}
+
+.basket{
+    position: relative;
+    top: 42px;
+    left: -30px;
+}
+
+.basket-content {
+    opacity: 0;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    min-height: 50px;
+    position: absolute;
+    left: -105px;
+    top: 52px;
+    z-index: 10;    
+    min-width: 240px;
+    min-height: 66px;    
+    background-color: white;
+}
+thead>tr{
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+
+}
+
+.visible{
+    opacity: 1;
+}
+
+.product-block{
+    display: flex;
+}
+.product{
+    margin: 10px;
+    width: 100px;
+    height: 200px;
+    border: 1px solid black;
+}
+.productRemoveBtn:hover {
+    cursor: pointer;
+}

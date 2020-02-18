@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Интернет магазин &quot;А.С.Б.</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo"><a href="#"><img src="images/logo.PNG" alt="LOGO"></a></div>
+
+            <ul class="menu">
+                <li><a href="#" class="sites"><span class="menutext">Главная</span></a></li>
+                <li><a href="catalog.html" class="sites"><span class="menutext">Каталог</span></a></li>
+                <li><a href="contacts.html" class="sites"><span class="menutext">Контакты</span></a></li>
+            </ul>
+            <div class="basket">
+                <button class="basket-button">Корзина</button>
+                <div class="basket-content ">
+                    <table class="basket-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">ID</th>
+                                <th scope="col">Имя</th>
+                                <th scope="col">Цена</th>
+                                <th scope="col">Количество</th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                        <tfoot>
+                            <tr>
+                                <th colspan="2" scope="row">Итого:</th>
+                                <td colspan="3">
+                                    <span class="total">0</span> Рублей
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </header>
+        <hr>
+        <h1>Интернет магазин гаджетов и&nbsp;электроники А.С.Б.</h1>
+        <div>Вас приветствует Интернет магазин гаджетов и&nbsp;электроники А.С.Б. <br>
+            У&nbsp;нас вы&nbsp;найдете всю самую современную электронику, по&nbsp;привлекательным ценам <br>
+            Так&nbsp;же вы&nbsp;сможете заказать сборку и&nbsp;настройку вашего ПК. <br>
+            <b>Приятных покупок!</b>
+        </div>
+        <div class="sim-slider">
+            <ul class="sim-slider-list">
+                <li><img src="http://pvbk.spb.ru/inc/slider/imgs/no-image.gif" alt="screen"></li> <!-- это экран -->
+                <li class="sim-slider-element"><img src="images/7BIG.jpg" alt="0"></li>
+                <li class="sim-slider-element"><img src="images/7proBig.jpeg" alt="1"></li>
+                <li class="sim-slider-element"><img src="images/8t.jpg" alt="2"></li>
+            </ul>
+            <div class="sim-slider-arrow-left"></div>
+            <div class="sim-slider-arrow-right"></div>
+            <div class="sim-slider-dots"></div>
+        </div>
+        <hr>
+        <footer>Все права защищены &copy;</footer>
+    </div>
+
+    <script src="js/slider.js"></script>
+    <script src="js/basket.js"></script>
+</body></html>

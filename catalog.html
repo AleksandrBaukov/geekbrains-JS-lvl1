@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>А.С.Б./Каталог</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo"><a href="index.html"><img src="images/logo.PNG" alt="LOGO"></a></div>
+
+            <ul class="menu">
+                <li><a href="index.html" class="sites"><span class="menutext">Главная</span></a></li>
+                <li><a href="catalog.html" class="sites"><span class="menutext">Каталог</span></a></li>
+                <li><a href="contacts.html" class="sites"><span class="menutext">Контакты</span></a></li>
+            </ul>
+            <div class="basket">
+                <button class="basket-button">Корзина</button>
+                <div class="basket-content ">
+                    <table class="basket-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">ID</th>
+                                <th scope="col">Имя</th>
+                                <th scope="col">Цена</th>
+                                <th scope="col">Количество</th>
+                                <th scope="col"></th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                        <tfoot>
+                            <tr>
+                                <th colspan="2" scope="row">Итого:</th>
+                                <td colspan="3">
+                                    <span class="total">0</span> Рублей
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </header>
+        <hr>
+        <h1>Каталог товаров</h1>
+        <ul class="prod-list">
+            <li><a href="catalog/oneplus7.html"><img src="images/7small.jpg" alt="Oneplus7"></a>
+                <br>
+                <a href="catalog/oneplus7.html"><b>Oneplus 7</b></a>
+            </li>
+            <li><a href="catalog/oneplus7pro.html"><img src="images/7prosmall.jpg" alt="Oneplus 7PRO"></a>
+                <br>
+                <a href="catalog/oneplus7pro.html"><b>Oneplus 7PRO</b></a></li>
+        </ul>
+        <hr>
+        <footer>Все права защищены &copy;</footer>
+    </div>
+    
+    <script src="js/basket.js"></script>
+</body></html>
