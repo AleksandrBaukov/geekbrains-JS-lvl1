@@ -1,0 +1,25 @@
+.product-block{
+    display: flex;
+}
+.product{
+    width: 200px;
+    margin: 30px;
+}
+.productName{
+    margin: 0 0 10px 0;
+    color: green;
+}
+img{
+    display: block;
+}
+button{
+    margin-top: 15px;
+    display: block;
+    border-radius: 10%;
+    outline: none;
+    background-color: lightblue;
+}
+.desc{
+    width: 175px;
+    height: 244px;
+}
